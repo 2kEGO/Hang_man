@@ -45,14 +45,14 @@ def play(word):
                 guess = True
                 word_completion = word
         else:
-            print('Not a valid input')
+            print('Not a valid input (ㆆ_ㆆ)')
         print(display_hangman(tries))
         print(word_completion)
         print('\n')
     if guessed: 
-        print('Congrats, you WIN')
+        print('Congrats, you WIN (っ＾▿＾)۶🍸🌟🍺٩(˘◡˘ )')
     else:
-        print('Sorry, you LOSE.The answer is:', word)
+        print('Sorry, you LOSE (╥﹏╥).The answer is:', word)
 
 def main():
     word = get_word()
