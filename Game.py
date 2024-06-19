@@ -50,7 +50,7 @@ def play(word):
         print(word_completion)
         print('\n')
     if guessed: 
-        print('Congrats, you WIN (っ＾▿＾)۶🍸🌟🍺٩(˘◡˘ )')
+        print('Congratulations, you WIN (っ＾▿＾)۶🍸🌟🍺٩(˘◡˘ )')
     else:
         print('Sorry, you LOSE (╥﹏╥).The answer is:', word)
 
